@@ -9,7 +9,7 @@ type Props = {
 const Button = ({ text, className, ...props }: Props) => {
   return (
     <button
-      className={`${className} px-5 py-3 bg-rose-500 hover:bg-rose-600 rounded-md`}
+      className={`${className} px-5 py-3 bg-rose-500 hover:bg-rose-600 rounded-md text-white`}
       {...props}
     >
       {text}
