@@ -1,5 +1,11 @@
+import HeroSlider from "./components/Slider/HeroSlider"
+
 const App = () => {
-  return <div className="text-2xl">App</div>
+  return (
+    <div>
+      <HeroSlider />
+    </div>
+  )
 }
 
 export default App
