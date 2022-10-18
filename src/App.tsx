@@ -1,4 +1,5 @@
 import Donate from "./components/Donate"
+import DonatePlans from "./components/DonatePlans/DonatePlans"
 import HeroSlider from "./components/Slider/HeroSlider"
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <HeroSlider />
       <Donate />
+      <DonatePlans />
     </div>
   )
 }
