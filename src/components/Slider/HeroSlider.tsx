@@ -47,9 +47,9 @@ const HeroSlider = () => {
     setSlideTimeout(tm)
   }
 
-  // useEffect(() => {
-  //   startSlide()
-  // }, [])
+  useEffect(() => {
+    startSlide()
+  }, [])
 
   return (
     <div className="relative">
@@ -62,7 +62,7 @@ const HeroSlider = () => {
             onClick={() => {
               clearTimeout(slidetimeout)
               setActiveSlide(index)
-              // startSlide()
+              startSlide()
             }}
             className={`
               ${index === activeSlide ? "bg-white" : "bg-white/50"}
