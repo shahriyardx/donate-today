@@ -2,6 +2,7 @@ import Donate from "./components/Donate"
 import DonatePlans from "./components/DonatePlans"
 import FeaturedCard from "./components/FeaturedCard"
 import HeroSlider from "./components/Slider/HeroSlider"
+import Updates from "./components/Updates"
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         image="/images/featured2.jpg"
         reverse
       />
+
+      <Updates />
     </div>
   )
 }
