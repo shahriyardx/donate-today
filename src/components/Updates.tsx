@@ -12,7 +12,11 @@ const Updates = () => {
 
       <div className="px-10 py-20 bg-orange-500/10 mt-10">
         <div className="flex items-center justify-center">
-          <input type="text" className="px-5 py-3 bg-zinc-400 text-white" />
+          <input
+            type="text"
+            className="px-5 py-3 placeholder:text-white bg-zinc-400 text-white outline-none"
+            placeholder="Email"
+          />
           <Button text="Subscribe" className="rounded-none" />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import Donate from "./components/Donate"
 import DonatePlans from "./components/DonatePlans"
 import FeaturedCard from "./components/FeaturedCard"
+import Footer from "./components/Footer"
 import HeroSlider from "./components/Slider/HeroSlider"
 import Updates from "./components/Updates"
 
@@ -24,6 +25,7 @@ const App = () => {
       />
 
       <Updates />
+      <Footer />
     </div>
   )
 }
