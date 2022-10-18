@@ -1,5 +1,5 @@
 import Donate from "./components/Donate"
-import DonatePlans from "./components/DonatePlans/DonatePlans"
+import DonatePlans from "./components/DonatePlans"
 import HeroSlider from "./components/Slider/HeroSlider"
 
 const App = () => {
