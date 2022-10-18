@@ -24,7 +24,7 @@ const Donate = () => {
                 : "bg-slate-100"
             }`}
           >
-            {preset}
+            {preset}tk
           </div>
         ))}
       </div>
@@ -33,6 +33,7 @@ const Donate = () => {
         <input
           type="number"
           placeholder="Other amount"
+          value={amount}
           onChange={(e) => setAmount(parseInt(e.target.value))}
           className="w-full text-center outline-none py-3 border-b-2"
         />
