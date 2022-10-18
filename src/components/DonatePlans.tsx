@@ -5,7 +5,7 @@ import { MdFamilyRestroom } from "react-icons/md"
 
 const DonatePlans = () => {
   return (
-    <div className="max-w-3xl mx-auto py-20 px-5">
+    <div className="max-w-4xl mx-auto py-20 px-5">
       <SectionHeader
         title="Our Donate Plan"
         subtitle="We accept donation for various category to help poor people give a decent life"
